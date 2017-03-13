@@ -1,0 +1,211 @@
+/*html5*/
+article,aside,dialog,footer,header,section,footer,nav,figure,menu{display:block}
+/* head */
+*{margin: 0;padding: 0;}
+body{
+	background-color:#e0edf3;
+}
+#body{
+	width:900px;
+	margin:0 auto;
+	font:15px serif, "Microsoft Yahei";
+}
+a{
+	text-decoration:none;
+}
+#head{
+	height:20px;
+	padding:0;
+	width:900px;
+	margin-top:10px;
+}
+.lo{
+	float:left;
+}
+.lo a,.con a{
+	color:#383838;
+	line-height:20px;
+}
+.con{
+	float:right;
+}
+.con span{
+	border-right:1px solid #2d2c28;
+	margin:0 5px;
+}
+
+/* nav */
+.nav ul{
+	width:900px;
+	height:30px;
+	background-color:#2b5c84;
+	text-align:center;
+}
+.nav ul li{
+	display:inline-block;
+	*display:inline;
+    *zoom:1;
+    width:140px;
+}
+.nav ul li a{
+	font-size:20px;
+	line-height:30px;
+	color:#fff;
+}
+.nav ul li a:hover{
+	color:#f66;
+}
+
+.ban{
+	margin-top:5px;
+	width:900px;
+	height:300px;
+	background-image:url(banner.jpg);
+}
+.local{
+	margin-top:10px;
+	width:900px;
+	height:20px;
+	font-size:13px;
+	line-height:20px;
+}
+
+/* main */
+.aside{
+	float:left;
+	width:200px;
+}
+h2{
+	background-color:#2b5c84;
+	color:#fff;
+	font-size:20px;
+	padding:5px;
+}
+.serv1,.comp1,.ran1,.comp3,.serv3,.our3{
+	padding:10px;
+	background-color:#fff;
+	text-indent:2em;
+	line-height:20px;
+}
+.more{
+	text-align:right;
+	color:#369;
+	margin-top:10px;
+}
+.our{
+	margin-top:10px;
+	background-color:#fff;
+}
+.our1,.pic{
+	padding:10px;
+	background-color:#fff;
+}
+.our1 ul{
+	list-style:none;
+}
+.our1 ul li{
+	margin-top:5px;
+}
+.content{
+	margin-left:220px;
+}
+.comp1 p{
+	line-height:30px;
+}
+.recom{
+	margin-top:10px;
+}
+.pic ul{
+	padding:5px;
+	text-align:center;
+}
+.pic ul li{
+	display:inline-block;
+	*display:inline;
+    *zoom:1;
+	width:200px;
+	height:200px;
+    margin-left:5px;
+	text-align:center;
+	margin-top:20px;
+	border:1px solid #2d2c28;
+}
+.pic ul li a img{
+	width:200px;
+	height:200px;
+}
+
+/* foot */
+.footer{
+	width:880px;
+	height:80px;
+	background-color:#fff;
+	text-align:center;
+	padding:10px;
+	margin-top:10px;
+}
+.footer p{
+	padding:15px;
+	font-size:13px;
+	line-height:30px;
+}
+
+/* company */
+.comp img{
+	width:600px;
+	height:400px;
+    margin:10px 0;
+}
+.local a{
+	padding-left:5px;
+	padding-right:5px;
+}
+
+/* productbasic */
+.comp1 dl{
+	font-weight:bold;
+	font-size:19px;
+	margin:20px 0;
+	padding:0;
+}
+
+/* service */
+.ran1{
+	height:400px;
+	line-height:30px;
+}
+
+/* contact */
+.serv2{
+	margin-top:10px;
+}
+.our3{
+	line-height:30px;
+}
+.our3 ul{
+	margin-top:20px;
+	list-style:none;
+}
+.our3 img{
+	width:500px;
+	height:400px;
+	margin:40px 30px 30px 70px;
+}
+
+/* productshow */
+.show1 ul{
+	padding:10px;
+	background-color:#fff;
+}
+.show1 ul li{
+	display:inline-block;
+	*display:inline;
+    *zoom:1;
+	padding:5px;
+    margin-top:20px;
+	text-align:center;
+}
+.show1 ul li img{
+	width:200px;
+	width:200px;
+}
